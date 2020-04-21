@@ -1,0 +1,11 @@
+<mat-tab-group>
+  <mat-tab label="HTML" *ngIf="html">
+    <pre><code [highlight]="html" [lineNumbers]="true"></code></pre>
+  </mat-tab>
+  <mat-tab label="TS" *ngIf="ts">
+    <pre><code [highlight]="ts" [lineNumbers]="true"></code></pre>
+  </mat-tab>
+  <mat-tab label="CSS" *ngIf="css">
+    <pre><code [highlight]="css" [lineNumbers]="true"></code></pre>
+  </mat-tab>
+</mat-tab-group>
